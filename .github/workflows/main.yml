@@ -31,3 +31,12 @@ jobs:
         cd infra_project/
         # запустить написанные разработчиком тесты
         python manage.py test
+<<<<<<< HEAD
+=======
+
+
+    - name: Test with flake8 and django tests
+      run: |
+        # запуск проверки проекта по flake8
+        python -m flake8
+>>>>>>> 895e6c4af363042986b3b527b981b131d393b8bf
